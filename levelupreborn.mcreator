@@ -1,70 +1,11 @@
 {
-  "mod_elements": [
-    {
-      "name": "Ciao",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ciao",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/levelupreborn/recipe/ciao.json"
-        ]
-      }
-    },
-    {
-      "name": "Test",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/levelupreborn/items/test.json",
-          "src/main/resources/data/levelupreborn/loot_table/blocks/test.json",
-          "src/main/java/net/mcreator/levelupreborn/block/TestBlock.java",
-          "src/main/resources/assets/levelupreborn/models/block/test.json",
-          "src/main/resources/assets/levelupreborn/models/item/test.json",
-          "src/main/resources/assets/levelupreborn/blockstates/test.json"
-        ]
-      }
-    },
-    {
-      "name": "Gagga",
-      "type": "fluid",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gagga",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/levelupreborn/blockstates/gagga.json",
-          "src/main/java/net/mcreator/levelupreborn/block/GaggaBlock.java",
-          "src/main/java/net/mcreator/levelupreborn/item/GaggaItem.java",
-          "src/main/java/net/mcreator/levelupreborn/fluid/GaggaFluid.java",
-          "src/main/resources/assets/levelupreborn/items/gagga_bucket.json",
-          "src/main/resources/assets/levelupreborn/models/block/gagga.json",
-          "src/main/java/net/mcreator/levelupreborn/fluid/types/GaggaFluidType.java",
-          "src/main/java/net/mcreator/levelupreborn/client/fluid/GaggaFluidExtension.java"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {
-    "BLOCKS:minecraft:replaceable": [
-      "~CUSTOM:Gagga"
-    ]
-  },
+  "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
-      "item.levelupreborn.test": "Test",
-      "fluid.levelupreborn.gagga": "Gagga",
-      "fluid_type.levelupreborn.gagga": "Gagga",
-      "block.levelupreborn.gagga": "Gagga",
-      "item.levelupreborn.gagga_bucket": "Gagga Bucket"
-    }
+    "en_us": {}
   },
   "metadata": {
     "files": [

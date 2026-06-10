@@ -14,7 +14,7 @@ import net.minecraft.core.BlockPos;
 
 public class AmethystOreBlock extends Block {
 	public AmethystOreBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_MAGENTA).sound(SoundType.AMETHYST).strength(1.75f, 10f).lightLevel(s -> 1).speedFactor(2f).instrument(NoteBlockInstrument.CHIME));
+		super(properties.mapColor(MapColor.COLOR_MAGENTA).sound(SoundType.AMETHYST).strength(1.75f, 10f).lightLevel(s -> 1).instrument(NoteBlockInstrument.CHIME));
 	}
 
 	@Override

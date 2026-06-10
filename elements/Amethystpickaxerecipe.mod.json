@@ -41,7 +41,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AmethystSword"
+      "value": "CUSTOM:AmethystPickaxe"
     },
     "name": "amethystpickaxerecipe",
     "namespace": "mod"

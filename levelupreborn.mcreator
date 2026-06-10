@@ -144,17 +144,16 @@
       "item.levelupreborn.reinforced_amethyst": "Reinforced Amethyst",
       "item_group.levelupreborn.level_up_reborn": "Level Up: Reborn",
       "item.levelupreborn.amethyst_sword": "Amethyst Sword",
-      "item.levelupreborn.evergay": "Evergay",
-      "item.levelupreborn.amethyst_pickaxe": "Amethyst Pickaxe"
+      "item.levelupreborn.evergay": "Evergay"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModBlocks.java",
       "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModItems.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModTabs.java"
+      "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {

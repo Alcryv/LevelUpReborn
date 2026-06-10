@@ -20,12 +20,12 @@
       "registry_name": "test",
       "metadata": {
         "files": [
-          "src/main/resources/assets/levelupreborn/models/block/test.json",
+          "src/main/resources/assets/levelupreborn/items/test.json",
           "src/main/resources/data/levelupreborn/loot_table/blocks/test.json",
-          "src/main/resources/assets/levelupreborn/blockstates/test.json",
-          "src/main/resources/assets/levelupreborn/models/item/test.json",
           "src/main/java/net/mcreator/levelupreborn/block/TestBlock.java",
-          "src/main/resources/assets/levelupreborn/items/test.json"
+          "src/main/resources/assets/levelupreborn/models/block/test.json",
+          "src/main/resources/assets/levelupreborn/models/item/test.json",
+          "src/main/resources/assets/levelupreborn/blockstates/test.json"
         ]
       }
     },
@@ -68,10 +68,6 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModFluidTypes.java",
-      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModFluids.java",
-      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModBlocks.java",
-      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModItems.java",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml"

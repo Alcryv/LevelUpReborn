@@ -1,10 +1,5 @@
 package net.mcreator.levelupreborn.fluid.types;
 
-import net.neoforged.neoforge.fluids.FluidType;
-import net.neoforged.neoforge.common.SoundActions;
-
-import net.minecraft.sounds.SoundEvents;
-
 public class GaggaFluidType extends FluidType {
 	public GaggaFluidType() {
 		super(FluidType.Properties.create().fallDistanceModifier(0F).canExtinguish(true).supportsBoating(true).canHydrate(true).motionScale(0.007D).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)

@@ -1,15 +1,5 @@
 package net.mcreator.levelupreborn.client.fluid;
 
-import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
-import net.neoforged.neoforge.client.extensions.common.IClientFluidTypeExtensions;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.api.distmarker.Dist;
-
-import net.minecraft.resources.ResourceLocation;
-
-import net.mcreator.levelupreborn.init.LeveluprebornModFluidTypes;
-
 @EventBusSubscriber(Dist.CLIENT)
 public class GaggaFluidExtension {
 	@SubscribeEvent

@@ -3,14 +3,15 @@
   "category": "misc",
   "pattern": [
     "aaa",
-    "aaa",
-    "aaa"
+    " b ",
+    " b "
   ],
   "key": {
-    "a": "minecraft:amethyst_cluster"
+    "a": "levelupreborn:reinforced_amethyst",
+    "b": "minecraft:stick"
   },
   "result": {
-    "id": "levelupreborn:reinforced_amethyst",
+    "id": "levelupreborn:amethyst_sword",
     "count": 1
   }
 }

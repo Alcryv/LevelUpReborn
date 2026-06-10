@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/black_stained_glass_pane_top",
+    "up": "minecraft:block/beehive_front",
+    "north": "minecraft:block/blue_stained_glass_pane_top",
+    "east": "minecraft:block/copper_bulb",
+    "south": "minecraft:block/cactus_side",
+    "west": "minecraft:block/bone_block_side",
+    "particle": "minecraft:block/black_stained_glass_pane_top"
+  },
+  "render_type": "solid"
+}

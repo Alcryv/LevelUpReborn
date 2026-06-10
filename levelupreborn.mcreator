@@ -11,6 +11,23 @@
           "src/main/resources/data/levelupreborn/recipe/ciao.json"
         ]
       }
+    },
+    {
+      "name": "Test",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/levelupreborn/items/test.json",
+          "src/main/resources/data/levelupreborn/loot_table/blocks/test.json",
+          "src/main/java/net/mcreator/levelupreborn/block/TestBlock.java",
+          "src/main/resources/assets/levelupreborn/models/block/test.json",
+          "src/main/resources/assets/levelupreborn/models/item/test.json",
+          "src/main/resources/assets/levelupreborn/blockstates/test.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -18,13 +35,15 @@
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.levelupreborn.test": "Test"
+    }
   },
   "metadata": {
     "files": [
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {

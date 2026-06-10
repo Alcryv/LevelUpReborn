@@ -19,15 +19,15 @@ public class LeveluprebornModItems {
 	public static final DeferredItem<Item> AMETHYST_SWORD;
 	public static final DeferredItem<Item> EVERGAY;
 	public static final DeferredItem<Item> AMETHYST_PICKAXE;
-	public static final DeferredItem<Item> AMETHYST_AXE;
 	public static final DeferredItem<Item> AMETHYST_SHOVEL;
+	public static final DeferredItem<Item> AMETHYST_AXE;
 	static {
 		REINFORCED_AMETHYST = register("reinforced_amethyst", ReinforcedAmethystItem::new);
 		AMETHYST_SWORD = register("amethyst_sword", AmethystSwordItem::new);
 		EVERGAY = register("evergay", EvergayItem::new);
 		AMETHYST_PICKAXE = register("amethyst_pickaxe", AmethystPickaxeItem::new);
-		AMETHYST_AXE = register("amethyst_axe", AmethystAxeItem::new);
 		AMETHYST_SHOVEL = register("amethyst_shovel", AmethystShovelItem::new);
+		AMETHYST_AXE = register("amethyst_axe", AmethystAxeItem::new);
 	}
 
 	// Start of user code block custom items

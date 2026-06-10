@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:amethyst_cluster"
+  },
+  "result": {
+    "id": "levelupreborn:reinforced_amethyst",
+    "count": 1
+  }
+}

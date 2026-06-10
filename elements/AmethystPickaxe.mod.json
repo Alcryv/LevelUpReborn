@@ -32,7 +32,7 @@
       }
     ],
     "immuneToFire": true,
-    "blockDropsTier": "DIAMOND",
+    "blockDropsTier": "IRON",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

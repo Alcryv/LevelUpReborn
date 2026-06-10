@@ -8,10 +8,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 
 import net.minecraft.world.item.Item;
 
-import net.mcreator.levelupreborn.item.ReinforcedAmethystItem;
-import net.mcreator.levelupreborn.item.EvergayItem;
-import net.mcreator.levelupreborn.item.AmethystSwordItem;
-import net.mcreator.levelupreborn.item.AmethystPickaxeItem;
+import net.mcreator.levelupreborn.item.*;
 import net.mcreator.levelupreborn.LeveluprebornMod;
 
 import java.util.function.Function;
@@ -22,11 +19,15 @@ public class LeveluprebornModItems {
 	public static final DeferredItem<Item> AMETHYST_SWORD;
 	public static final DeferredItem<Item> EVERGAY;
 	public static final DeferredItem<Item> AMETHYST_PICKAXE;
+	public static final DeferredItem<Item> AMETHYST_AXE;
+	public static final DeferredItem<Item> AMETHYST_SHOVEL;
 	static {
 		REINFORCED_AMETHYST = register("reinforced_amethyst", ReinforcedAmethystItem::new);
 		AMETHYST_SWORD = register("amethyst_sword", AmethystSwordItem::new);
 		EVERGAY = register("evergay", EvergayItem::new);
 		AMETHYST_PICKAXE = register("amethyst_pickaxe", AmethystPickaxeItem::new);
+		AMETHYST_AXE = register("amethyst_axe", AmethystAxeItem::new);
+		AMETHYST_SHOVEL = register("amethyst_shovel", AmethystShovelItem::new);
 	}
 
 	// Start of user code block custom items

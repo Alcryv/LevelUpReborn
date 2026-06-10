@@ -34,7 +34,8 @@
       "registry_name": "amethyst_sword_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/levelupreborn/recipe/amethyst_sword_recipe.json"
+          "src/main/resources/data/levelupreborn/recipe/amethyst_sword_recipe.json",
+          "src/main/resources/data/levelupreborn/advancement/recipes/amethyst_sword_recipe.json"
         ]
       }
     },
@@ -106,6 +107,7 @@
       "registry_name": "amethystpickaxerecipe",
       "metadata": {
         "files": [
+          "src/main/resources/data/levelupreborn/advancement/recipes/amethystpickaxerecipe.json",
           "src/main/resources/data/levelupreborn/recipe/amethystpickaxerecipe.json"
         ]
       }
@@ -123,6 +125,60 @@
           "src/main/resources/assets/levelupreborn/items/amethyst_pickaxe.json"
         ]
       }
+    },
+    {
+      "name": "AmethystAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/levelupreborn/items/amethyst_axe.json",
+          "src/main/java/net/mcreator/levelupreborn/item/AmethystAxeItem.java",
+          "src/main/resources/assets/levelupreborn/models/item/amethyst_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/levelupreborn/advancement/recipes/amethyst_axe_recipe.json",
+          "src/main/resources/data/levelupreborn/recipe/amethyst_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/levelupreborn/items/amethyst_shovel.json",
+          "src/main/java/net/mcreator/levelupreborn/item/AmethystShovelItem.java",
+          "src/main/resources/assets/levelupreborn/models/item/amethyst_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/levelupreborn/recipe/amethyst_shovel_recipe.json",
+          "src/main/resources/data/levelupreborn/advancement/recipes/amethyst_shovel_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -132,9 +188,22 @@
       "~CUSTOM:AmethystSword"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:AmethystShovel",
       "~CUSTOM:AmethystPickaxe"
     ],
     "ITEMS:levelupreborn:amethyst_pickaxe_repair_items": [
+      "~CUSTOM:ReinforcedAmethyst"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:AmethystAxe"
+    ],
+    "ITEMS:levelupreborn:amethyst_axe_repair_items": [
+      "~CUSTOM:ReinforcedAmethyst"
+    ],
+    "ITEMS:levelupreborn:amethyst_sword_repair_items": [
+      "~CUSTOM:ReinforcedAmethyst"
+    ],
+    "ITEMS:levelupreborn:amethyst_shovel_repair_items": [
       "~CUSTOM:ReinforcedAmethyst"
     ]
   },
@@ -144,11 +213,16 @@
       "item.levelupreborn.reinforced_amethyst": "Reinforced Amethyst",
       "item_group.levelupreborn.level_up_reborn": "Level Up: Reborn",
       "item.levelupreborn.amethyst_sword": "Amethyst Sword",
-      "item.levelupreborn.evergay": "Evergay"
+      "item.levelupreborn.evergay": "Evergay",
+      "item.levelupreborn.amethyst_pickaxe": "Amethyst Pickaxe",
+      "item.levelupreborn.amethyst_axe": "Amethyst Axe",
+      "item.levelupreborn.amethyst_shovel": "Amethyst Shovel"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModItems.java",
+      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
       "src/main/resources/pack.mcmeta"

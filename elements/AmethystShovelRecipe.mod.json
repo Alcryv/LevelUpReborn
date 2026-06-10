@@ -17,13 +17,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:ReinforcedAmethyst"
+        "value": ""
       },
       {
         "value": "CUSTOM:ReinforcedAmethyst"
       },
       {
-        "value": "CUSTOM:ReinforcedAmethyst"
+        "value": ""
       },
       {
         "value": ""
@@ -45,9 +45,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AmethystPickaxe"
+      "value": "CUSTOM:AmethystShovel"
     },
-    "name": "amethystpickaxerecipe",
+    "name": "amethyst_shovel_recipe",
     "namespace": "mod"
   }
 }

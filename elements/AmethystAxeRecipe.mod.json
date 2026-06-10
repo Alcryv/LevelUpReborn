@@ -23,10 +23,10 @@
         "value": "CUSTOM:ReinforcedAmethyst"
       },
       {
-        "value": "CUSTOM:ReinforcedAmethyst"
+        "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:ReinforcedAmethyst"
       },
       {
         "value": "Items.STICK"
@@ -45,9 +45,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AmethystPickaxe"
+      "value": "CUSTOM:AmethystAxe"
     },
-    "name": "amethystpickaxerecipe",
+    "name": "amethyst_axe_recipe",
     "namespace": "mod"
   }
 }

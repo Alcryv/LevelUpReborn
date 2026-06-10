@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "levelupreborn:reinforced_amethyst",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "levelupreborn:amethyst_sword",
+    "count": 1
+  }
+}

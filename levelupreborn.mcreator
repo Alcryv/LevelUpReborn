@@ -97,6 +97,32 @@
           "src/main/java/net/mcreator/levelupreborn/item/EvergayItem.java"
         ]
       }
+    },
+    {
+      "name": "Amethystpickaxerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystpickaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/levelupreborn/recipe/amethystpickaxerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/levelupreborn/models/item/amethyst_pickaxe.json",
+          "src/main/resources/assets/levelupreborn/items/amethyst_pickaxe.json",
+          "src/main/java/net/mcreator/levelupreborn/item/AmethystPickaxeItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -104,6 +130,12 @@
   "tag_elements": {
     "ITEMS:minecraft:swords": [
       "~CUSTOM:AmethystSword"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:AmethystPickaxe"
+    ],
+    "ITEMS:levelupreborn:amethyst_pickaxe_repair_items": [
+      "~CUSTOM:ReinforcedAmethyst"
     ]
   },
   "tab_element_order": {},
@@ -117,11 +149,11 @@
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModBlocks.java",
       "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModItems.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModTabs.java"
+      "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {

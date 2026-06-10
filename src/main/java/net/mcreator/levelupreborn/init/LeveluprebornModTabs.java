@@ -18,8 +18,8 @@ public class LeveluprebornModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, LeveluprebornMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> LEVEL_UP_REBORN = REGISTRY.register("level_up_reborn",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.levelupreborn.level_up_reborn")).icon(() -> new ItemStack(Items.EXPERIENCE_BOTTLE)).displayItems((parameters, tabData) -> {
-				tabData.accept(LeveluprebornModItems.AMETHYST_SWORD.get());
 				tabData.accept(LeveluprebornModItems.REINFORCED_AMETHYST.get());
+				tabData.accept(LeveluprebornModItems.AMETHYST_SWORD.get());
 				tabData.accept(LeveluprebornModItems.EVERGAY.get());
 			}).withSearchBar().build());
 }

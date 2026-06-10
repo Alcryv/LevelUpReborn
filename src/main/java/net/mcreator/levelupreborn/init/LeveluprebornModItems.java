@@ -17,12 +17,12 @@ import java.util.function.Function;
 
 public class LeveluprebornModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(LeveluprebornMod.MODID);
-	public static final DeferredItem<Item> AMETHYST_SWORD;
 	public static final DeferredItem<Item> REINFORCED_AMETHYST;
+	public static final DeferredItem<Item> AMETHYST_SWORD;
 	public static final DeferredItem<Item> EVERGAY;
 	static {
-		AMETHYST_SWORD = register("amethyst_sword", AmethystSwordItem::new);
 		REINFORCED_AMETHYST = register("reinforced_amethyst", ReinforcedAmethystItem::new);
+		AMETHYST_SWORD = register("amethyst_sword", AmethystSwordItem::new);
 		EVERGAY = register("evergay", EvergayItem::new);
 	}
 

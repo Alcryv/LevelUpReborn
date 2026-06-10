@@ -1,6 +1,44 @@
 {
   "mod_elements": [
     {
+      "name": "ReinforcedAmethystRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_amethyst_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/levelupreborn/recipe/reinforced_amethyst_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedAmethyst",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_amethyst",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelupreborn/item/ReinforcedAmethystItem.java",
+          "src/main/resources/assets/levelupreborn/items/reinforced_amethyst.json",
+          "src/main/resources/assets/levelupreborn/models/item/reinforced_amethyst.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/levelupreborn/recipe/amethyst_sword_recipe.json"
+        ]
+      }
+    },
+    {
       "name": "LevelUpReborn",
       "type": "tab",
       "compiles": true,
@@ -21,44 +59,6 @@
           "src/main/java/net/mcreator/levelupreborn/item/AmethystSwordItem.java",
           "src/main/resources/assets/levelupreborn/models/item/amethyst_sword.json",
           "src/main/resources/assets/levelupreborn/items/amethyst_sword.json"
-        ]
-      }
-    },
-    {
-      "name": "ReinforcedAmethyst",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "reinforced_amethyst",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/levelupreborn/item/ReinforcedAmethystItem.java",
-          "src/main/resources/assets/levelupreborn/items/reinforced_amethyst.json",
-          "src/main/resources/assets/levelupreborn/models/item/reinforced_amethyst.json"
-        ]
-      }
-    },
-    {
-      "name": "ReinforcedAmethystRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "reinforced_amethyst_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/levelupreborn/recipe/reinforced_amethyst_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "AmethystSwordRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amethyst_sword_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/levelupreborn/recipe/amethyst_sword_recipe.json"
         ]
       }
     },
@@ -108,17 +108,10 @@
   },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
-      "item_group.levelupreborn.level_up_reborn": "Level Up: Reborn",
-      "item.levelupreborn.amethyst_sword": "Amethyst Sword",
-      "item.levelupreborn.reinforced_amethyst": "Reinforced Amethyst",
-      "item.levelupreborn.evergay": "Evergay"
-    }
+    "en_us": {}
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModItems.java",
-      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
       "src/main/resources/pack.mcmeta"

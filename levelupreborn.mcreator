@@ -99,6 +99,18 @@
       }
     },
     {
+      "name": "Amethystpickaxerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystpickaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/levelupreborn/recipe/amethystpickaxerecipe.json"
+        ]
+      }
+    },
+    {
       "name": "AmethystPickaxe",
       "type": "tool",
       "compiles": true,
@@ -109,18 +121,6 @@
           "src/main/resources/assets/levelupreborn/models/item/amethyst_pickaxe.json",
           "src/main/java/net/mcreator/levelupreborn/item/AmethystPickaxeItem.java",
           "src/main/resources/assets/levelupreborn/items/amethyst_pickaxe.json"
-        ]
-      }
-    },
-    {
-      "name": "Amethystpickaxerecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amethystpickaxerecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/levelupreborn/recipe/amethystpickaxerecipe.json"
         ]
       }
     }
@@ -144,14 +144,11 @@
       "item.levelupreborn.reinforced_amethyst": "Reinforced Amethyst",
       "item_group.levelupreborn.level_up_reborn": "Level Up: Reborn",
       "item.levelupreborn.amethyst_sword": "Amethyst Sword",
-      "item.levelupreborn.evergay": "Evergay",
-      "item.levelupreborn.amethyst_pickaxe": "Amethyst Pickaxe"
+      "item.levelupreborn.evergay": "Evergay"
     }
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModItems.java",
-      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
       "src/main/resources/pack.mcmeta"

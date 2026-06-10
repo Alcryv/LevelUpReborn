@@ -24,5 +24,6 @@ public class LeveluprebornModTabs {
 				tabData.accept(LeveluprebornModItems.AMETHYST_PICKAXE.get());
 				tabData.accept(LeveluprebornModItems.AMETHYST_SHOVEL.get());
 				tabData.accept(LeveluprebornModItems.AMETHYST_AXE.get());
+				tabData.accept(LeveluprebornModBlocks.AMETHYST_BLOCK.get().asItem());
 			}).build());
 }

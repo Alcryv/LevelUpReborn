@@ -179,6 +179,36 @@
           "src/main/resources/data/levelupreborn/recipe/amethyst_axe_recipe.json"
         ]
       }
+    },
+    {
+      "name": "AmethystOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/levelupreborn/items/amethyst_block.json",
+          "src/main/resources/assets/levelupreborn/models/block/amethyst_block.json",
+          "src/main/java/net/mcreator/levelupreborn/block/AmethystOreBlock.java",
+          "src/main/resources/data/levelupreborn/loot_table/blocks/amethyst_block.json",
+          "src/main/resources/assets/levelupreborn/blockstates/amethyst_block.json",
+          "src/main/resources/assets/levelupreborn/models/item/amethyst_block.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/levelupreborn/recipe/amethyst_ore_recipe.json",
+          "src/main/resources/data/levelupreborn/advancement/recipes/amethyst_ore_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -218,11 +248,13 @@
       "item.levelupreborn.evergay": "Evergay",
       "item.levelupreborn.amethyst_pickaxe": "Amethyst Pickaxe",
       "item.levelupreborn.amethyst_shovel": "Amethyst Shovel",
-      "item.levelupreborn.amethyst_axe": "Amethyst Axe"
+      "item.levelupreborn.amethyst_axe": "Amethyst Axe",
+      "item.levelupreborn.amethyst_block": "Amethyst Ore"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModBlocks.java",
       "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModItems.java",
       "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",

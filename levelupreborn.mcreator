@@ -149,8 +149,6 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModItems.java",
-      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
       "src/main/resources/pack.mcmeta"

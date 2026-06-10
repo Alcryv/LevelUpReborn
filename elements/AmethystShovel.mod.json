@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "tool",
   "definition": {
-    "toolType": "Pickaxe",
+    "toolType": "Spade",
     "renderType": 0,
     "blockingRenderType": 0,
     "texture": "amethyst_shovel",
@@ -15,7 +15,7 @@
     },
     "creativeTabs": [
       {
-        "value": "TOOLS"
+        "value": "CUSTOM:LevelUpReborn"
       }
     ],
     "efficiency": 7.0,

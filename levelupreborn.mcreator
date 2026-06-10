@@ -34,7 +34,8 @@
       "registry_name": "amethyst_sword_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/levelupreborn/recipe/amethyst_sword_recipe.json"
+          "src/main/resources/data/levelupreborn/recipe/amethyst_sword_recipe.json",
+          "src/main/resources/data/levelupreborn/advancement/recipes/amethyst_sword_recipe.json"
         ]
       }
     },
@@ -106,6 +107,7 @@
       "registry_name": "amethystpickaxerecipe",
       "metadata": {
         "files": [
+          "src/main/resources/data/levelupreborn/advancement/recipes/amethystpickaxerecipe.json",
           "src/main/resources/data/levelupreborn/recipe/amethystpickaxerecipe.json"
         ]
       }
@@ -186,7 +188,6 @@
       "~CUSTOM:AmethystSword"
     ],
     "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:AmethystShovel",
       "~CUSTOM:AmethystPickaxe"
     ],
     "ITEMS:levelupreborn:amethyst_pickaxe_repair_items": [
@@ -200,6 +201,12 @@
     ],
     "ITEMS:levelupreborn:amethyst_axe_repair_items": [
       "~CUSTOM:ReinforcedAmethyst"
+    ],
+    "ITEMS:levelupreborn:amethyst_sword_repair_items": [
+      "~CUSTOM:ReinforcedAmethyst"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:AmethystShovel"
     ]
   },
   "tab_element_order": {},
@@ -209,11 +216,15 @@
       "item_group.levelupreborn.level_up_reborn": "Level Up: Reborn",
       "item.levelupreborn.amethyst_sword": "Amethyst Sword",
       "item.levelupreborn.evergay": "Evergay",
-      "item.levelupreborn.amethyst_pickaxe": "Amethyst Pickaxe"
+      "item.levelupreborn.amethyst_pickaxe": "Amethyst Pickaxe",
+      "item.levelupreborn.amethyst_shovel": "Amethyst Shovel",
+      "item.levelupreborn.amethyst_axe": "Amethyst Axe"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModItems.java",
+      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
       "src/main/resources/pack.mcmeta"

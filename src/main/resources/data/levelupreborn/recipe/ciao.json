@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "minecraft:mangrove_propagule",
+    "b": "minecraft:sugar_cane",
+    "c": "minecraft:emerald_block"
+  },
+  "result": {
+    "id": "minecraft:music_disc_far",
+    "count": 64
+  }
+}

@@ -22,5 +22,8 @@ public class LeveluprebornModTabs {
 				tabData.accept(LeveluprebornModItems.AMETHYST_SWORD.get());
 				tabData.accept(LeveluprebornModItems.EVERGAY.get());
 				tabData.accept(LeveluprebornModItems.AMETHYST_PICKAXE.get());
-			}).withSearchBar().build());
+				tabData.accept(LeveluprebornModItems.AMETHYST_SHOVEL.get());
+				tabData.accept(LeveluprebornModItems.AMETHYST_AXE.get());
+				tabData.accept(LeveluprebornModBlocks.AMETHYST_BLOCK.get().asItem());
+			}).build());
 }

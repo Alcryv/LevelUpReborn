@@ -26,28 +26,28 @@
         "value": "CUSTOM:ReinforcedAmethyst"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ReinforcedAmethyst"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:ReinforcedAmethyst"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ReinforcedAmethyst"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ReinforcedAmethyst"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:ReinforcedAmethyst"
       },
       {
-        "value": ""
+        "value": "CUSTOM:ReinforcedAmethyst"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AmethystPickaxe"
+      "value": "CUSTOM:AmethystOre"
     },
-    "name": "amethystpickaxerecipe",
+    "name": "amethyst_ore_recipe",
     "namespace": "mod"
   }
 }

@@ -6,6 +6,6 @@
     "icon": {
       "value": "Items.EXPERIENCE_BOTTLE"
     },
-    "showSearch": true
+    "showSearch": false
   }
 }

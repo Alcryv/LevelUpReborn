@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": "levelupreborn:reinforced_amethyst",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "levelupreborn:deleted_mod_element",
+    "count": 1
+  }
+}

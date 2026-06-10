@@ -22,6 +22,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.levelupreborn.init.LeveluprebornModTabs;
 import net.mcreator.levelupreborn.init.LeveluprebornModItems;
+import net.mcreator.levelupreborn.init.LeveluprebornModBlocks;
 
 import javax.annotation.Nullable;
 
@@ -46,6 +47,7 @@ public class LeveluprebornMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		LeveluprebornModBlocks.REGISTRY.register(modEventBus);
 		LeveluprebornModItems.REGISTRY.register(modEventBus);
 		LeveluprebornModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init

@@ -2,14 +2,14 @@
   "_fv": 79,
   "_type": "tool",
   "definition": {
-    "toolType": "Sword",
+    "toolType": "Axe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "amethyst_sword",
+    "texture": "amethyst_axe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Amethyst Sword",
+    "name": "Amethyst Axe",
     "specialInformation": {
       "fixedValue": []
     },
@@ -18,10 +18,10 @@
         "value": "CUSTOM:LevelUpReborn"
       }
     ],
-    "efficiency": 1.0,
-    "attackSpeed": 2.0,
-    "enchantability": 4,
-    "damageVsEntity": 7.0,
+    "efficiency": 7.0,
+    "attackSpeed": 0.5,
+    "enchantability": 2,
+    "damageVsEntity": 8.0,
     "usageCount": 800,
     "glowCondition": {
       "fixedValue": false
@@ -32,7 +32,7 @@
       }
     ],
     "immuneToFire": true,
-    "blockDropsTier": "WOOD",
+    "blockDropsTier": "IRON",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

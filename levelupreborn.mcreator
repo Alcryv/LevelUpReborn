@@ -123,6 +123,90 @@
           "src/main/java/net/mcreator/levelupreborn/item/AmethystPickaxeItem.java"
         ]
       }
+    },
+    {
+      "name": "AmethystOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/levelupreborn/advancement/recipes/amethyst_ore_recipe.json",
+          "src/main/resources/data/levelupreborn/recipe/amethyst_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/levelupreborn/advancement/recipes/amethyst_shovel_recipe.json",
+          "src/main/resources/data/levelupreborn/recipe/amethyst_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelupreborn/item/AmethystShovelItem.java",
+          "src/main/resources/assets/levelupreborn/items/amethyst_shovel.json",
+          "src/main/resources/assets/levelupreborn/models/item/amethyst_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/levelupreborn/item/AmethystAxeItem.java",
+          "src/main/resources/assets/levelupreborn/items/amethyst_axe.json",
+          "src/main/resources/assets/levelupreborn/models/item/amethyst_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/levelupreborn/blockstates/amethyst_block.json",
+          "src/main/resources/assets/levelupreborn/models/item/amethyst_block.json",
+          "src/main/java/net/mcreator/levelupreborn/block/AmethystOreBlock.java",
+          "src/main/resources/data/levelupreborn/loot_table/blocks/amethyst_block.json",
+          "src/main/resources/assets/levelupreborn/items/amethyst_block.json",
+          "src/main/resources/assets/levelupreborn/models/block/amethyst_block.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/levelupreborn/recipe/amethyst_axe_recipe.json",
+          "src/main/resources/data/levelupreborn/advancement/recipes/amethyst_axe_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -136,6 +220,18 @@
     ],
     "ITEMS:levelupreborn:amethyst_pickaxe_repair_items": [
       "~CUSTOM:ReinforcedAmethyst"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:AmethystShovel"
+    ],
+    "ITEMS:levelupreborn:amethyst_shovel_repair_items": [
+      "~CUSTOM:ReinforcedAmethyst"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:AmethystAxe"
+    ],
+    "ITEMS:levelupreborn:amethyst_axe_repair_items": [
+      "~CUSTOM:ReinforcedAmethyst"
     ]
   },
   "tab_element_order": {},
@@ -144,16 +240,17 @@
       "item.levelupreborn.reinforced_amethyst": "Reinforced Amethyst",
       "item_group.levelupreborn.level_up_reborn": "Level Up: Reborn",
       "item.levelupreborn.amethyst_sword": "Amethyst Sword",
-      "item.levelupreborn.evergay": "Evergay"
+      "item.levelupreborn.evergay": "Evergay",
+      "item.levelupreborn.amethyst_pickaxe": "Amethyst Pickaxe"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModBlocks.java",
       "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModItems.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModTabs.java"
+      "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {

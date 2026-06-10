@@ -158,8 +158,8 @@
       "registry_name": "amethyst_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/levelupreborn/item/AmethystShovelItem.java",
           "src/main/resources/assets/levelupreborn/items/amethyst_shovel.json",
+          "src/main/java/net/mcreator/levelupreborn/item/AmethystShovelItem.java",
           "src/main/resources/assets/levelupreborn/models/item/amethyst_shovel.json"
         ]
       }
@@ -241,13 +241,15 @@
       "item_group.levelupreborn.level_up_reborn": "Level Up: Reborn",
       "item.levelupreborn.amethyst_sword": "Amethyst Sword",
       "item.levelupreborn.evergay": "Evergay",
-      "item.levelupreborn.amethyst_pickaxe": "Amethyst Pickaxe"
+      "item.levelupreborn.amethyst_pickaxe": "Amethyst Pickaxe",
+      "item.levelupreborn.amethyst_shovel": "Amethyst Shovel"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModBlocks.java",
       "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModItems.java",
+      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
       "src/main/resources/pack.mcmeta"

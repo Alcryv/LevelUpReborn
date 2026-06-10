@@ -1,17 +1,122 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "ReinforcedAmethystRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_amethyst_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/levelupreborn/recipe/reinforced_amethyst_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedAmethyst",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_amethyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/levelupreborn/models/item/reinforced_amethyst.json",
+          "src/main/resources/assets/levelupreborn/items/reinforced_amethyst.json",
+          "src/main/java/net/mcreator/levelupreborn/item/ReinforcedAmethystItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AmethystSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/levelupreborn/recipe/amethyst_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LevelUpReborn",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_up_reborn",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AmethystSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/levelupreborn/models/item/amethyst_sword.json",
+          "src/main/resources/assets/levelupreborn/items/amethyst_sword.json",
+          "src/main/java/net/mcreator/levelupreborn/item/AmethystSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EvergayRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evergay_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/levelupreborn/procedures/EvergayRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Evergay",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evergay",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/levelupreborn/items/evergay.json",
+          "src/main/resources/assets/levelupreborn/models/item/evergay.json",
+          "src/main/java/net/mcreator/levelupreborn/item/EvergayItem.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:AmethystSword"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {}
   },
   "metadata": {
     "files": [
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModBlocks.java",
+      "src/main/java/net/mcreator/levelupreborn/init/LeveluprebornModItems.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/levelupreborn/LeveluprebornMod.java",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {

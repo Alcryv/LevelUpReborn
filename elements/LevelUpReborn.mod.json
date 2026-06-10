@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Level Up: Reborn",
+    "icon": {
+      "value": "Items.EXPERIENCE_BOTTLE"
+    },
+    "showSearch": true
+  }
+}

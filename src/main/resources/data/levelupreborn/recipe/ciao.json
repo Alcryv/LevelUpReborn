@@ -1,18 +1,14 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
+  "group": "kakyoin",
   "category": "misc",
-  "pattern": [
-    "a",
-    "b",
-    "c"
+  "ingredients": [
+    "minecraft:mangrove_propagule",
+    "minecraft:sugar_cane",
+    "minecraft:emerald_block"
   ],
-  "key": {
-    "a": "minecraft:mangrove_propagule",
-    "b": "minecraft:sugar_cane",
-    "c": "minecraft:emerald_block"
-  },
   "result": {
     "id": "minecraft:music_disc_far",
-    "count": 64
+    "count": 1
   }
 }

@@ -21,6 +21,8 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.levelupreborn.init.LeveluprebornModItems;
+import net.mcreator.levelupreborn.init.LeveluprebornModFluids;
+import net.mcreator.levelupreborn.init.LeveluprebornModFluidTypes;
 import net.mcreator.levelupreborn.init.LeveluprebornModBlocks;
 
 import javax.annotation.Nullable;
@@ -48,6 +50,8 @@ public class LeveluprebornMod {
 		modEventBus.addListener(this::registerNetworking);
 		LeveluprebornModBlocks.REGISTRY.register(modEventBus);
 		LeveluprebornModItems.REGISTRY.register(modEventBus);
+		LeveluprebornModFluids.REGISTRY.register(modEventBus);
+		LeveluprebornModFluidTypes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
